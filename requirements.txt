@@ -1,0 +1,24 @@
+# Core Framework
+streamlit
+python-dotenv
+
+# LangChain & LLMs
+langchain>=0.1.16
+langchain-google-genai>=0.0.7
+google-generativeai>=0.3.2
+
+# Embeddings & Vector DB
+faiss-cpu
+tiktoken
+
+# File Handling
+PyMuPDF  # for PDF reading
+python-docx  # for DOCX files
+unstructured  # optional, better parsing of text from diverse files
+
+# Text processing
+beautifulsoup4
+lxml
+
+# Dev/Utility
+requests
