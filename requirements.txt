@@ -2,13 +2,17 @@
 streamlit
 python-dotenv
 
-# LangChain & LLMs
+# LangChain & Open-Source LLMs
 langchain>=0.1.16
-langchain-google-genai>=0.0.7
-google-generativeai>=0.3.2
+langchain-community
+transformers>=4.30.0
+torch
+accelerate
+bitsandbytes  # for model quantization
 
-# Embeddings & Vector DB
-faiss-cpu
+# Embeddings & Vector DB (Open Source)
+sentence-transformers
+chromadb
 tiktoken
 
 # File Handling
@@ -16,9 +20,20 @@ PyMuPDF  # for PDF reading
 python-docx  # for DOCX files
 unstructured  # optional, better parsing of text from diverse files
 
-# Text processing
+# Text processing & NLP
 beautifulsoup4
 lxml
+spacy>=3.6.0
+textblob  # for sentiment analysis
+
+# Database & Authentication
+sqlite3  # built-in with Python
+bcrypt
+pandas
+
+# Email & Notifications
+smtplib  # built-in with Python
 
 # Dev/Utility
 requests
+numpy
