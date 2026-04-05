@@ -21,7 +21,7 @@
 
 **HRBot** is an LLM-powered HR assistant built with **Retrieval-Augmented Generation (RAG)**. It lets employees ask natural-language questions about company policies, leave entitlements, performance reviews, and more — and get instant, accurate answers sourced directly from your uploaded HR documents (PDFs, DOCX, TXT).
 
-All AI inference runs **100 % locally** using open-source models from HuggingFace. No data is sent to OpenAI, Google, or any third-party API.
+All AI inference runs **100% locally** using open-source models from HuggingFace. No data is sent to OpenAI, Google, or any third-party API.
 
 > **Use case:** An employee asks *"How many days of annual leave am I entitled to?"* — HRBot searches the uploaded employee handbook and responds with the exact relevant passage.
 
